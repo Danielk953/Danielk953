@@ -40,13 +40,15 @@ a {
 }
 
 .bg-2 {
-    background-color: #2e72a1; /* Blue */
+    background-color: #6a8eae; /* Air Force Blue */
     color: #ffffff;
 }
 
 .card {
     color: black;
     text-align: left;
+    margin-bottom: 15px;
+    height: 250px;
 }
 
 .card-title {

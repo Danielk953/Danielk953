@@ -1,131 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <title class="owner-name">#</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-</head>
-
-<body>
-
-    <!-- Navbar -->
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand owner-name" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" id="github" target="_blank">Github</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
+    <head>
+        <title>Daniel Kovacs</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Stylish Portfolio - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand"><a href="#page-top">Start Bootstrap</a></li>
+                <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
+                <li class="sidebar-nav-item"><a href="#about">About</a></li>
+                <li class="sidebar-nav-item"><a href="#services">Me</a></li>
+                <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
+                <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
             </ul>
-        </div>
-    </nav>
-
-    <!-- First Container -->
-    <div class="container-fluid bg-1 text-center">
-        <!--<h1 class="margin">Name</h1>-->
-        <img src="img/daniel-logo.png" class="img-fluid" alt="Logo" id="logo">
-    </div>
-
-    <!-- Second Container -->
-    <div class="container-fluid bg-2 text-center" id="projects">
-        <h3 class="margin">Projects</h3>
-        <p>Coming soon!</p>
-        <div class="container">
-            <div class="row">
-
-                <!--
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Project Name</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">10th Grade</h6>
-                            <p class="card-text">A brief explanation of the project.</p>
-                            <a href="#" class="card-link">More</a>
-                        </div>
+        </nav>
+        <!-- Header-->
+        <header class="masthead d-flex align-items-center">
+            <div class="container px-4 px-lg-5 text-center">
+                <img src="assets/img/daniel-logo.png" class="mb-1" id="logo">
+                <h3 class="mb-5"><em>Welcome</em></h3>
+                <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="content-section bg-light" id="about">
+            <div class="container px-4 px-lg-5 text-center">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-10">
+                        <h2>Who am I</h2>
+                        <p class="lead mb-5">
+                            I am a Sophmore at HSTAT taking the Software Engineering Program.
+                        </p>
+                        <a class="btn btn-dark btn-xl" href="#services">About Me</a>
                     </div>
                 </div>
-                -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Movie Webpage Project</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">10th Grade</h6>
-                            <p class="card-text">My first project. A webpage based on a movie created with css/html titled "Flesh Boy" designed by my partner Omar.</p>
-                            <a href="projects/movie-webpage.html" class="card-link">More</a>
-                        </div>
+            </div>
+        </section>
+        <!-- Services-->
+        <section class="content-section bg-primary text-white text-center" id="services">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading">
+                    <h3 class="text-secondary mb-0">Me</h3>
+                    <h2 class="mb-5">Few Things About Me</h2>
+                </div>
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-pc-display" viewBox="0 0 16 16">
+                            <path d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V1Zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0Zm2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0ZM9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5ZM1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2H1.5Z"/>
+                          </svg></span>
+                        <h4><strong>Technology</strong></h4>
+                        <p class="text-faded mb-0">I love using computers and phones.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-palette" viewBox="0 0 16 16">
+                            <path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                            <path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8zm-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7z"/>
+                          </svg>
+                        </span>
+                        <h4><strong>Color</strong></h4>
+                        <p class="text-faded mb-0">My favorite color is purple.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-activity" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z"/>
+                          </svg>
+                        </span>
+                        <h4><strong>Outdoors</strong></h4>
+                        <p class="text-faded mb-0">
+                            I love playing sports with friends.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-mustache"></i></span>
+                        <h4><strong>Question</strong></h4>
+                        <p class="text-faded mb-0">I mustache you a question...</p>
                     </div>
                 </div>
-
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Long Walk Home Project</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">10th Grade</h6>
-                            <p class="card-text">My second project. "Long walk Home" full of decisions.</p>
-                            <a href="projects/cyoa.html" class="card-link">More</a>
+            </div>
+        </section>
+        <!-- Portfolio-->
+        <section class="content-section" id="portfolio">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading text-center">
+                    <h3 class="text-secondary mb-0">Portfolio</h3>
+                    <h2 class="mb-5">Recent Projects</h2>
+                </div>
+                <div class="row gx-0">
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#modal1" data-bs-toggle="modal" data-bs-target="#modal1">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">SHABR Project</div>
+                                    <p class="mb-0">My first project. The was made to summarize what we learned from bootstrap.</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio-1.jpg" alt="..." />
+                        </a>
+                        <!-- Modal-1 -->
+                <div class="modal fade" id="modal1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">SHABR Project</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body modal-dialog modal-dialog-scrollable">
+                            <img src="assets/img/shabr.png" class="img-fluid project-img">
+                            <p>When making this project, We were given a website to recreate based on picture without source code. Me and my partner were able to make a fairly identical website. I was able to combined my bootsrap knowledge with my partners sass through the project.</p>
+                        </div>
+                        <div class="modal-footer">
+                        <a class="btn btn-primary" href="https://danielk9538.github.io/shabr-danielk9538-austinl1905/" role="button">Preview of the project</a>
+                        <a class="btn btn-primary" href="https://raw.githubusercontent.com/hstatsep-students/shabr-austinl1905-danielk9538-shabr/main/index.html?token=GHSAT0AAAAAACDWG2M7EDTDYYJFGC2YGDZAZFE4GDQ" role="button">Raw Code</a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Freedom Project</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">10th Grade</h6>
-                            <p class="card-text">My third project. "Freedom Project" Year long assignment.</p>
-                            <a href="projects/freedom-project.html" class="card-link">More</a>
-                        </div>
                     </div>
                 </div>
+                    <!-- Modal-1 -->
+                    </div>
 
-            </div>
-        </div>
-        </a>
-    </div>
 
-    <!-- Third Container (Grid) -->
-    <div class="container-fluid bg-3 text-center">
-        <h3 class="margin">About Me</h3><br>
-        <div class="row">
-            <div class="col-sm-4">
-                <p>hello world</p>
-            </div>
-            <div class="col-sm-4">
-                <p>Lorem ipsum.</p>
-            </div>
-            <div class="col-sm-4">
-                <p>Lorem ipsum.</p>
-            </div>
-        </div>
-    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#modal2" data-bs-toggle="modal" data-bs-target="#modal2">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Long Walk Home Project</div>
+                                    <p class="mb-0">My second project. Viewers have the oppertunity to choose a path through the storyline. Labeled "Long Walk Home"</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio-2.jpg" alt="..." />
+                        </a>
+                        <!-- Modal-2 -->
+                        <div class="modal fade" id="modal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Long Walk Home Project</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body modal-dialog modal-dialog-scrollable">
+                                    <img src="assets/img/long-walk-home-preview.png" class="img-fluid project-img">
+                                    <p>This project is about a long walk home, where you'll make decisions on the route you go. Ironically this project has very few files for a long walk but enough for you to try them all. The most difficult part of this project was linking each file without confusing the outcome, while allowing the story to make sense.</p>
+                                </div>
+                                <div class="modal-footer">
+                                <a class="btn btn-primary" href="https://github.com/danielk953/long-walk-home" role="button">Link to the project</a>
+                                <a class="btn btn-primary" href="https://raw.githubusercontent.com/danielk9538/sep10-freedom-project/main/_site/index.html" role="button">Raw Code</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                            </div>
+                        <!-- Modal-2 -->
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#modal3" data-bs-toggle="modal" data-bs-target="#modal3">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Freedom Project</div>
+                                    <p class="mb-0">My third project. "Freedom Project" Year long assignment.</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio-3.jpg" alt="..." />
+                        </a>
+                        <!-- Modal-3 -->
+                        <div class="modal fade" id="modal3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Freedom Project</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body modal-dialog modal-dialog-scrollable">
+                                    <img src="assets/img/freedom-project-preview.png" class="img-fluid project-img">
+                                    <p>This project was made using Jekyll which allowed me to create an organized website, Jekyll is known for converting markdown ( A type of code language) into HTML ( Another type of code language) onto your website. The topic of this project was Photography which is the art or practice of taking and processing photographs (images). I've listed existing tools and programs that people use in photography and how they can be used. This experience with Jekyll was not a fun one as all I gained was an organized codespace and a massive headache. Although it was not that difficult, I most likely won’t be using Jekyll in the near future.</p>
+                                </div>
+                                <div class="modal-footer">
+                                <a class="btn btn-primary" href="https://danielk9538.github.io/sep10-freedom-project/" role="button">Preview of the project</a>
+                                <a class="btn btn-primary" href="https://raw.githubusercontent.com/danielk9538/sep10-freedom-project/main/_site/index.html" role="button">Raw Code</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
 
-    <!-- Footer -->
-    <footer class="container-fluid bg-4 text-center">
-        <a href="#" target="_blank" id="fork"><img src="img/fork.png"></a><br>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                            </div>
+                        <!-- Modal-3 -->
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#modal4" data-bs-toggle="modal" data-bs-target="#modal4">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Coming Soon</div>
+                                    <p class="mb-0">...</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio-4.jpg" alt="..." />
+                        </a>
+                        <!-- Modal-4 -->
+                        <div class="modal fade" id="modal4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Coming Soon</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body modal-dialog modal-dialog-scrollable">
+                                    <p>...</p>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                            </div>
+                        <!-- Modal-4 -->
+
+                </div>
+            </div>
+        </section>
+        <!-- Call to Action-->
+        <section class="content-section bg-primary text-white">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mb-4">The buttons below are impossible to resist...</h2>
+                <a class="btn btn-xl btn-light me-4" href="#!">Click Me!</a>
+                <a class="btn btn-xl btn-dark" href="#!">Look at Me!</a>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container px-4 px-lg-5">
+                <ul class="list-inline mb-5">
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white" href="https://github.com/danielk9538"><i class="icon-social-github"></i></a>
+                    </li>
+                </ul>
+            <a href="#" target="_blank" id="fork"><img src="assets/img/fork.png"></a><br>
         <a href="https://hstatsep.github.io" target="_blank"><img src="https://hstatsep.github.io/img/hstatsep-logo-small.png" id="sep"></a>
-    </footer>
 
-
-    <script src="script.js"></script>
-</body>
-
+                <p class="text-muted small mb-0">Copyright &copy;  2023 | Daniel Kovacs</p>
+            </div>
+        </footer>
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
